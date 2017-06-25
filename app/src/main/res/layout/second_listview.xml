@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/second_Image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:id="@+id/second_TianQi"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/second_Image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="多云"/>
+
+    <TextView
+        android:id="@+id/second_WenDu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2-15°C"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/second_Image"
+        android:layout_below="@id/second_TianQi" />
+
+    <TextView
+        android:id="@+id/second_ShiJian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6-23"
+        android:textSize="20sp"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/second_WenDu"
+        android:layout_alignBottom="@id/second_WenDu" />
+
+</RelativeLayout>
